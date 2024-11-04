@@ -4,7 +4,6 @@ import {
 } from "../../mui-components/User-Management/UserHeaderStyles";
 import { useAppSelector, useAppDispatch } from "../../store/store";
 import Rating from "@mui/material/Rating";
-import { useState } from "react";
 import { deleteUsers } from "../../store/slices/usersSlice";
 import { useNavigate } from "react-router";
 import { Delete } from "@mui/icons-material";

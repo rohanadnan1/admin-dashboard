@@ -1,4 +1,4 @@
-import { Button, Stack } from "@mui/material";
+import {  Stack } from "@mui/material";
 import { styled } from "@mui/system";
 
 export const SidebarWrapper = styled(Stack)({

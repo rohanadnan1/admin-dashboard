@@ -11,7 +11,7 @@ import {
   HeadingContainer,
   HeadingContent,
 } from "../../mui-components/Chats/MainStyles";
-import { Bar, Doughnut } from "react-chartjs-2";
+import {  Doughnut } from "react-chartjs-2";
 import {
   Chart as ChartJS,
   CategoryScale,

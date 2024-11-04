@@ -42,7 +42,7 @@ const UserEdit = () => {
     gap: "20px",
   };
 
-  const [value, setValue] = React.useState<number | null>(2);
+  const [, setValue] = React.useState<number | null>(2);
   const [open, setOpen] = React.useState(false);
   const [editedUser, setEditedUser] = React.useState<any>(user);
   const handleOpen = () => setOpen(true);

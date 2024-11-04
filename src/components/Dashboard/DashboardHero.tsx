@@ -3,11 +3,11 @@ import {
   ChartBox,
   DashHeroWrapper,
 } from "../../mui-components/Dashboard/SectionsStyles";
-import { Button, ButtonGroup, Box as Div } from "@mui/material";
+import {  Box as Div } from "@mui/material";
 import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 
-import { Doughnut, Line } from "react-chartjs-2";
+import {  Line } from "react-chartjs-2";
 import {
   Chart as ChartJS,
   ArcElement,
@@ -18,7 +18,6 @@ import {
   CategoryScale,
   LinearScale,
 } from "chart.js";
-import { useState } from "react";
 import Navbar from "../Chats/Navbar";
 
 ChartJS.register(

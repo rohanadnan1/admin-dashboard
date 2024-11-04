@@ -1,6 +1,4 @@
-import React from "react";
 import { Box } from "@mui/material";
-import Navbar from "../Chats/Navbar";
 import SideNav from "./SideNav";
 import Hero from "./DashboardHero";
 import Reviews from "./Reviews";

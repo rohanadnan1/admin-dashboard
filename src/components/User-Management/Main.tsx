@@ -1,6 +1,6 @@
 import { useAppDispatch } from "../../store/store";
 // import {  setUpdatedUsers } from "../../store/slices/usersSlice";
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
 import Sidebar from "./Sidebar";
 import { Box } from "@mui/material";
 import Navbar from "../Chats/Navbar";

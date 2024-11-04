@@ -74,7 +74,7 @@ const dropdown = [
 ];
 
 export default function MenuPopupState() {
-  const [dropdownItems, setDropdownItems] =
+  const [dropdownItems] =
     React.useState<Dropdown[]>(dropdown);
 
   return (
