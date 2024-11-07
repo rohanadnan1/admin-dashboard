@@ -37,7 +37,7 @@ const LoginPage = () => {
         // Store user session in local storage
         localStorage.setItem(
           "userSession",
-          JSON.stringify({ email: item.email, loggedIn: true })
+          JSON.stringify({ email: item.email, name: item.name, loggedIn: true })
         );
 
         // Navigate to the dashboard
@@ -123,6 +123,11 @@ const LoginPage = () => {
                   outline: "none",
                 },
               },
+            }}
+            onKeyDown={(e) => {
+              if (e.key === "Enter") {
+                loginUser();
+              }
             }}
             InputLabelProps={{ style: { color: "white" } }}
             InputProps={{
