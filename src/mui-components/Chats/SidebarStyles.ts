@@ -1,3 +1,5 @@
+// Desc: Styles for the Sidebar component
+
 import {  Stack } from "@mui/material";
 import { styled } from "@mui/system";
 

@@ -11,11 +11,11 @@ const Main = () => {
   const dispatch = useAppDispatch();
 
   useEffect(() => {
-    const isFetched = localStorage.getItem("isFetched");
+    const isFetched = localStorage.getItem("isFetched"); // Check if data is already fetched
 
     if (!isFetched) {
       dispatch(fetchData());
-      localStorage.setItem("isFetched", "true");
+      localStorage.setItem("isFetched", "true");  // setting an item in local storage to avoid fetching data again
     }
   }, [dispatch]);
   return (

@@ -1,3 +1,5 @@
+// Desc: Styles for the UserEdits component
+
 import styled from "@emotion/styled";
 import { TextareaAutosize } from "@mui/material";
 

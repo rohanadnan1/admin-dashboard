@@ -24,7 +24,6 @@ const LoginPage = () => {
   const { data } = useQuery("login", async () => {
     const res = await fetch("../../../mock.json");
     const jsonData = await res.json();
-    console.log(jsonData, "jsonData");
     return jsonData;
   });
 

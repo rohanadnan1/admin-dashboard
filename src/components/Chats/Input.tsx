@@ -23,8 +23,10 @@ const Input = () => {
         onChange={(e) => setMessage(e.target.value)}
         onKeyDown={(e) => {
           if (e.key === "Enter") {
-            dispatch(addMessage({ message }));
-            setMessage("");
+            if (message.trim() !== "") {
+              dispatch(addMessage({ message })); // checking if message is not empty before dispatching
+              setMessage("");
+            }
           }
         }}
       />
@@ -48,8 +50,10 @@ const Input = () => {
             },
           }}
           onClick={() => {
-            dispatch(addMessage({ message }));
-            setMessage("");
+            if (message.trim() !== "") {
+              dispatch(addMessage({ message }));
+              setMessage("");
+            }
           }}
         >
           <KeyboardVoice

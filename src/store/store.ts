@@ -11,14 +11,14 @@ const store = configureStore({
         chats: chatSlice.reducer,
         users: usersSlice.reducer
     },
-    middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(thunk),
+    middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(thunk),  // Add the thunk middleware to  handle async actions
 })
 
 export type RootState = ReturnType<typeof store.getState>
 export type AppDispatch = typeof store.dispatch
 
-export const useAppDispatch = () => useDispatch<AppDispatch>()
-export const useAppSelector: TypedUseSelectorHook<RootState> = useSelector
+export const useAppDispatch = () => useDispatch<AppDispatch>()  // Export a hook that can be reused to dispatch actions
+export const useAppSelector: TypedUseSelectorHook<RootState> = useSelector  // Export a hook that can be reused to select data from the store
 
 
 export default store;

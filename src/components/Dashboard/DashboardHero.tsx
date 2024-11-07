@@ -31,6 +31,9 @@ ChartJS.register(
 );
 
 let arr = [];
+
+// using a for loop to generate random data for the line chart
+
 for (let i = 0; i < 12; i++) {
   arr.push(Math.floor(Math.random() * 100));
 }

@@ -33,6 +33,9 @@ ChartJS.register(
 );
 
 let data = [];
+
+// Generate random data for the doughnut chart
+
 for (let i = 0; i < 2; i++) {
   data.push(Math.floor(Math.random() * 100));
 }

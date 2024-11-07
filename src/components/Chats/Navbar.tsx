@@ -37,7 +37,7 @@ const Navbar: React.FC<NavbarProps> = ({ text, width }) => {
             gap: "10px",
           }}
         >
-          {isChats ? (
+          {isChats ? (  
             <MapsUgcTwoToneIcon />
           ) : isDashboard ? (
             <Analytics />

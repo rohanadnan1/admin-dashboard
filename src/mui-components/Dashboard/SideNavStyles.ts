@@ -1,3 +1,5 @@
+// Desc: Styles for the SideNav component
+
 import { styled } from "@mui/system";
 
 export const SideNavWrapper = styled('div')({

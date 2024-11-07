@@ -11,6 +11,7 @@ const messageSlice = createSlice({
     reducers: {
         addMessage: (state, action) => {
             state.push({...action.payload, imgUrl: 'https://images.unsplash.com/photo-1648884266836-517ad583e720?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D'})
+            // Add a new message to the state and image is hard coded for now but can be passed as a payload
         }
     }
 })

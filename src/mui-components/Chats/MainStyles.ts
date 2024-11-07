@@ -1,4 +1,4 @@
-"use client";
+// Desc: Styles for the Main component
 
 import { Box } from "@mui/material";
 import { styled } from "@mui/system";

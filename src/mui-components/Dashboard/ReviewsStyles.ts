@@ -1,3 +1,5 @@
+// Desc: Styles for the ReviewSection component
+
 import { styled } from "@mui/system";
 
 export const ReviewSectionWrapper = styled('div')({

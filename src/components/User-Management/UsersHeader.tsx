@@ -16,8 +16,10 @@ const userHeaderDetails: string[] = [
   "Total Spent",
 ];
 
+// Function to generate random date for the last week
+
 const randomDate = (): string => {
-  const today = new Date(2024, 10, 3); // Month is 0-indexed, so 10 is November
+  const today = new Date(2024, 10, 3)
   const lastWeek = new Date(today);
   lastWeek.setDate(today.getDate() - 7);
 
@@ -29,12 +31,16 @@ const randomDate = (): string => {
   const day = randomDate.getDate().toString().padStart(2, "0");
   const year = randomDate.getFullYear();
 
-  return `${day}/${month}/${year}`;
+  return `${day}/${month}/${year}`;  // Returns the date in the format dd/mm/yyyy
 };
+
+// Function to generate random order number for the user
 
 const randomOrder = (): number => {
   return Math.floor(Math.random() * 100);
 };
+
+// Function to generate random amount spent by the user
 
 const randomSpent = (): number => {
   return Math.floor(Math.random() * 1000);
@@ -62,7 +68,6 @@ const UsersHeader = () => {
           }}
         >
           <>
-            {/* <Check/> */}
             <Delete
               sx={{
                 mr: "20px",

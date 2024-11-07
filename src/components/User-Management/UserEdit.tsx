@@ -19,7 +19,7 @@ import { useNavigate } from "react-router";
 import { updateUser } from "../../store/slices/usersSlice";
 
 const UserEdit = () => {
-  const { id } = useParams<{ id: string }>();
+  const { id } = useParams<{ id: string }>();  // useParams hook to get the id from the URL
   const navigate = useNavigate();
   const user = useAppSelector((state) =>
     state.users.data.find((user) => user.id === Number(id))

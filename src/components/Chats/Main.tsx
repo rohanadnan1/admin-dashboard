@@ -6,7 +6,6 @@ import Hero from "./Hero";
 const Main = () => {
   return (
     <MainContainer>
-      {/* <Sidebar /> */}
       <Chats />
       <Hero />
       <LastSection />

@@ -1,4 +1,4 @@
-"use client";
+// Desc: Styles for Chats component
 
 import { Box, Button } from "@mui/material";
 import { styled } from "@mui/system";

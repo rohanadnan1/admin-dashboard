@@ -1,3 +1,5 @@
+// Desc: Styles for the LastSection component
+
 import {styled} from '@mui/system'
 
 export const LastSectionWrapper = styled('div')({

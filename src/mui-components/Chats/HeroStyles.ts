@@ -1,3 +1,6 @@
+// Desc: Styles for the Hero component
+
+
 import { Edit } from "@mui/icons-material";
 import { Avatar, Box, Button } from "@mui/material";
 import { styled } from "@mui/system";

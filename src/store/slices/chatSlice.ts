@@ -22,7 +22,7 @@ const chatSlice = createSlice({
   initialState,
   reducers: {
     removeChats: (state) => {
-      state.splice(0, state.length);
+      state.splice(0, state.length);  // Remove all chats by splicing the array from index 0 to the length of the array
     },
   },
 });

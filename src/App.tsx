@@ -22,6 +22,7 @@ function AppContent() {
   const isLogin = location.pathname === "/login";
   const navigate = useNavigate();
 
+  // first the user session is checked and then the user is redirected to the login page if the session is not found and if the session is available then the user is redirected to the dashboard and cannot go back to the login page till the session is available
 
   const userSession = localStorage.getItem("userSession");
 
@@ -46,7 +47,10 @@ function AppContent() {
         width: "100vw",
       }}
     >
-      {!isLogin && userSession && <Sidebar />}
+      
+      {/* Making sure the sidebar stays in the whole app except the login page */}
+
+      {!isLogin && userSession && <Sidebar />}  
       <Routes>
         <Route path="/login" element={<LoginPage />} />
         {userSession && (

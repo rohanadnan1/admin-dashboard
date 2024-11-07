@@ -9,6 +9,9 @@ import { useQuery } from "react-query";
 import axios from "axios";
 import { Oval } from "react-loader-spinner";
 
+
+// using react query to fetch data from the reviews.json file (it helps to cache the data and also handle loading states)
+
 const Reviews = () => {
   const { isLoading, data } = useQuery("reviews", async () => {
     const res = await axios.get("../../public/reviews.json");

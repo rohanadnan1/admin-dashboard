@@ -1,3 +1,5 @@
+// Desc: Styles for the SectionStyles component
+
 import {styled} from '@mui/system'
 
 export const Box = styled('div')({
