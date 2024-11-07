@@ -38,6 +38,8 @@ Open the application in http://localhost:5173
 - You will be directed to /login
 <img width="1414" alt="Screenshot 2024-11-07 at 4 06 53 PM" src="https://github.com/user-attachments/assets/8d82134a-16da-41bd-9a43-c7739077487f">
 
+ #### Enter one of these email and password and you will be directed to /dashboard
+
 ```bash
 [
   {
@@ -57,9 +59,6 @@ Open the application in http://localhost:5173
 password: 12345
 ```
 
-- Enter one of these email and password and you will be directed to /dashboard
-
-
 <img width="1438" alt="Screenshot 2024-11-07 at 4 11 01 PM" src="https://github.com/user-attachments/assets/0a1aa4ba-8772-454c-94c1-12763d42f41e">
 
 - Here through the sidebar you can navigate to different pages
@@ -73,7 +72,7 @@ password: 12345
 
 <img width="1438" alt="Screenshot 2024-11-07 at 4 20 15 PM" src="https://github.com/user-attachments/assets/31268266-feed-4663-88a2-449fff50cd1c">
 
-# This is the most interactive page of the whole app
+#### This is the most interactive page of the whole app
 
 - You can sort users by clicking on sort users and you can sort by either rating or name
 
