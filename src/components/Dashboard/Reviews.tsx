@@ -14,7 +14,7 @@ import { Oval } from "react-loader-spinner";
 
 const Reviews = () => {
   const { isLoading, data } = useQuery("reviews", async () => {
-    const res = await axios.get("../../public/reviews.json");
+    const res = await axios.get("../../../public/reviews.json");
     return res.data;
   });
 
